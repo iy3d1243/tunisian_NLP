@@ -19,12 +19,13 @@ This application uses Natural Language Processing (NLP) techniques to classify A
 - `app.py`: Streamlit web application for the classifier
 - `models.py`: Script for training and saving the machine learning models
 - `*.pkl`: Saved models and vectorizer
+- `requirements.txt`: List of required Python packages
 
 ## How to Run
 
 1. Install the required dependencies:
    ```
-   pip install streamlit pandas scikit-learn xgboost
+   pip install -r requirements.txt
    ```
 
 2. Run the Streamlit app:
